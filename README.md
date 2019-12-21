@@ -17,3 +17,5 @@ Linux 4.20.13-1.el7.elrepo.x86_64
 Install latest nVidia GPU driver:
 
 #wget http://download.nvidia.com/XFree86/Linux-x86_64/440.44/NVIDIA-Linux-x86_64-440.44.run
+
+#bash ./NVIDIA-Linux-x86_64-440.44.run --silent --install-libglvnd
