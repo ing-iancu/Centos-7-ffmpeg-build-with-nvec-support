@@ -16,7 +16,9 @@ Linux 3.10.0-957.el7.x86_64
 
 #yum --disablerepo="*" --enablerepo="elrepo-kernel" list available
 
-#yum --enablerepo=elrepo-kernel install kernel-ml kernel-ml-devel
+#yum --enablerepo=elrepo-kernel install kernel-lt kernel-lt-devel
+
+#reboot
 
 #uname -sr
 
