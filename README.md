@@ -22,11 +22,11 @@ Linux 3.10.0-957.el7.x86_64
 
 #uname -sr
 
-Linux 5.4.5-1.el7.elrepo.x86_64
+Linux 4.4.206-1.el7.elrepo.x86_64
 
-# awk -F\' '$1=="menuentry " {print $2}' /etc/grub2.cfg
+#awk -F\' '$1=="menuentry " {print $2}' /etc/grub2.cfg
 
-CentOS Linux (5.4.5-1.el7.elrepo.x86_64) 7 (Core)
+CentOS Linux (4.4.206-1.el7.elrepo.x86_64) 7 (Core)
 
 CentOS Linux (3.10.0-1062.9.1.el7.x86_64) 7 (Core)
 
