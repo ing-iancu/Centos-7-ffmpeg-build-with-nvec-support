@@ -10,3 +10,5 @@ Linux 3.10.0-957.el7.x86_64
 
 1. Upgrade kernel to 4.2X
 
+#uname -sr
+Linux 4.20.13-1.el7.elrepo.x86_64
