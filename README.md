@@ -26,6 +26,15 @@ Update database to search nvcc
 
 #locate nvcc
 
+[root@ns webmaster]# locate nvcc
+/usr/local/cuda-10.2/bin/nvcc
+
+On script install_ffmpeg_centos7.sh modify value as follow:
+
+CUDA_DIR="/usr/local/cuda-10.2"
+
+
+
 
 
 
