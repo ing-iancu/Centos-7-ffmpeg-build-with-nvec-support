@@ -20,12 +20,6 @@ Install CUDA Toolkit 10.2 following instructions from: https://developer.nvidia.
 
 #sudo sh cuda_10.2.89_440.33.01_linux.run
 
-Install libass:
-
-#rpm -Uvh https://download-ib01.fedoraproject.org/pub/epel/7/x86_64/Packages/e/epel-release-7-12.noarch.rpm
-
-#yum install libass
-
 Update database to search nvcc
 
 #updatedb
