@@ -11,7 +11,7 @@ REQUIREMENTS:
 
 Linux 3.10.0-957.el7.x86_64
 
-1. Upgrade kernel to 5.XX
+1. Upgrade kernel to 4.XX
 
 #rpm --import https://www.elrepo.org/RPM-GPG-KEY-elrepo.org
 
@@ -72,6 +72,7 @@ Check again your kernel version:
 
 Linux 4.4.206-1.el7.elrepo.x86_64
 
+# Important: CUDA Toolkit doesn't work with any kernel more 5 
 
 Install CUDA Toolkit 10.2 following instructions from: https://developer.nvidia.com/cuda-downloads?target_os=Linux&target_arch=x86_64&target_distro=CentOS&target_version=7&target_type=runfilelocal
 
