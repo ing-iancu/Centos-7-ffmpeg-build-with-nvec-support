@@ -1,0 +1,17 @@
+#echo "blacklist nouveau" > /etc/modprobe.d/nvidia-installer-disable-nouveau.conf
+
+#echo "options nouveau modeset=0" >> /etc/modprobe.d/nvidia-installer-disable-nouveau.conf
+
+#dracut -f
+
+#reboot
+
+Install the Nvidia driver
+
+#systemctl stop gdm >/dev/null 2>&1
+
+#nvidia-uninstall --silent
+
+#wget https://uk.download.nvidia.com/XFree86/Linux-x86_64/440.36/NVIDIA-Linux-x86_64-440.36.run
+
+#bash ./NVIDIA-Linux-x86_64-435.21.run --silent --install-libglvnd
