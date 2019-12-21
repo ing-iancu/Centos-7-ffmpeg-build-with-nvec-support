@@ -93,6 +93,10 @@ On script install_ffmpeg_centos7.sh modify value as follow:
 
 CUDA_DIR="/usr/local/cuda-10.2"
 
+To install libass, try:
+
+#rpm -Uvh https://download-ib01.fedoraproject.org/pub/epel/7/x86_64/Packages/e/epel-release-7-12.noarch.rpm
+
 
 
 
