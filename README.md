@@ -143,9 +143,9 @@ usage: ffmpeg [options] [[infile options] -i infile]... {[outfile options] outfi
 
 Use -h to get full help or, even better, run 'man ffmpeg'
 
+# IMPORTANT! If you want to use more ffmpeg with nvec (ex: for video transcoding), think to follow steps from "Disable the Nvidia nouveau open source driver" In atother case, just ignore that.
 
-
-
+Enjoy!
 
 
 
