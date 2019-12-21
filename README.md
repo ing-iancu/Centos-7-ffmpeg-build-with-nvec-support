@@ -26,5 +26,13 @@ Install libass:
 
 #yum install libass
 
+Update database to search nvcc
+
+#updatedb
+
+#locate nvcc
+
+
+
 
 
