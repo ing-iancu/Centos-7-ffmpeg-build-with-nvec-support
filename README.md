@@ -97,6 +97,55 @@ To install few libraries (libass, soxr and another) try:
 
 #rpm -Uvh https://download-ib01.fedoraproject.org/pub/epel/7/x86_64/Packages/e/epel-release-7-12.noarch.rpm
 
+Now is time to run my script:
+
+#bash install_ffmpeg_centos7.sh
+
+After a lot of messages, finay must have:
+
+...........
+
+INSTALL libavutil/libavutil.pc
+
+Complete!
+
+You can job done as follow:
+
+#cd /root/ffmpeg-build-static-binaries/bin/
+
+#./ffmpeg
+
+ffmpeg version N-96108-g191df4f Copyright (c) 2000-2019 the FFmpeg developers
+
+  built with gcc 4.8.5 (GCC) 20150623 (Red Hat 4.8.5-39)
+  
+  configuration: --pkg-config-flags=--static --prefix=/root/ffmpeg-build-static-binaries --bindir=/root/ffmpeg-build-static-binaries/bin --extra-cflags='-I /root/ffmpeg-build-static-binaries/include -I /usr/local/cuda-10.2/include/' --extra-ldflags='-L /root/ffmpeg-build-static-binaries/lib -L /usr/local/cuda-10.2/lib64/' --extra-libs=-lpthread --extra-libs=-lm --extra-libs=-lssl --extra-libs=-lcrypto --enable-cuda-sdk --enable-cuvid --enable-cuda --enable-nvdec --enable-nvenc --enable-libnpp --enable-gpl --enable-libass --enable-libfdk-aac --enable-vaapi --enable-libfreetype --enable-libmp3lame --enable-libopus --enable-libtheora --enable-libvorbis --enable-libvpx --enable-libx264 --enable-libx265 --enable-nonfree --enable-version3 --enable-muxer=rtsp --enable-protocol=rtp --enable-demuxer=rtsp --enable-static --enable-runtime-cpudetect --enable-bzlib --enable-openal --enable-libass --enable-libpulse --enable-libsoxr --enable-libspeex --enable-openssl --disable-vdpau --disable-doc --disable-shared --extra-cflags=-fopenmp --extra-ldflags=-fopenmp --disable-libmfx
+  
+  libavutil      56. 36.101 / 56. 36.101
+  
+  libavcodec     58. 65.100 / 58. 65.100
+  
+  libavformat    58. 35.101 / 58. 35.101
+  
+  libavdevice    58.  9.101 / 58.  9.101
+  
+  libavfilter     7. 69.101 /  7. 69.101
+  
+  libswscale      5.  6.100 /  5.  6.100
+  
+  libswresample   3.  6.100 /  3.  6.100
+  
+  libpostproc    55.  6.100 / 55.  6.100
+  
+Hyper fast Audio and Video encoder
+
+usage: ffmpeg [options] [[infile options] -i infile]... {[outfile options] outfile}...
+
+Use -h to get full help or, even better, run 'man ffmpeg'
+
+
+
+
 
 
 
