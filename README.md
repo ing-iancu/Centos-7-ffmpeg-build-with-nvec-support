@@ -13,3 +13,7 @@ Linux 3.10.0-957.el7.x86_64
 #uname -sr
 
 Linux 4.20.13-1.el7.elrepo.x86_64
+
+Install latest nVidia GPU driver:
+
+#wget http://download.nvidia.com/XFree86/Linux-x86_64/440.44/NVIDIA-Linux-x86_64-440.44.run
