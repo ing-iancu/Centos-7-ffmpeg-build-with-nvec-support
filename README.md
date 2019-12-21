@@ -14,8 +14,17 @@ Linux 3.10.0-957.el7.x86_64
 
 Linux 4.20.13-1.el7.elrepo.x86_64
 
-Install latest nVidia GPU driver:
+Install CUDA Toolkit 10.2 following instructions from: https://developer.nvidia.com/cuda-downloads?target_os=Linux&target_arch=x86_64&target_distro=CentOS&target_version=7&target_type=runfilelocal
 
-#wget http://download.nvidia.com/XFree86/Linux-x86_64/440.44/NVIDIA-Linux-x86_64-440.44.run
+#wget http://developer.download.nvidia.com/compute/cuda/10.2/Prod/local_installers/cuda_10.2.89_440.33.01_linux.run
 
-#bash ./NVIDIA-Linux-x86_64-440.44.run --silent --install-libglvnd
+#sudo sh cuda_10.2.89_440.33.01_linux.run
+
+Install libass:
+
+#rpm -Uvh https://download-ib01.fedoraproject.org/pub/epel/7/x86_64/Packages/e/epel-release-7-12.noarch.rpm
+
+#yum install libass
+
+
+
